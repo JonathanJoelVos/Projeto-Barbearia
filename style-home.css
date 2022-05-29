@@ -1,0 +1,124 @@
+body {
+    
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 20 px 0;
+}
+
+.caixa {
+    width: 940px;/* largura padrao usada*/
+    position: relative;/* para trazer a caixa para frente junto com o nav */
+    margin: 0 auto; /* 0 para top e button, auto para left e right */
+}
+
+nav {
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px; /* margin vai no li para mudar o espaço entre itens e não relacionado aos links */
+}
+
+nav a { /* aqui modifica o link pois o html transforma o conteudo escrito em um link
+    ou seja, o a representa a modificação só no conteudo e não na caixa */
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: bold; /* o peso da fonte fica em uma estetica em negrito 
+    (negrito usando css) */
+    font-size: 22px;
+}
+
+nav a:hover {/* vai agir de tal forma quando passar o mouse por cima */
+    color: #6d0780;
+    text-decoration: underline;/* para por sublinhado quando passa o mouse */
+}
+
+.texto-principal{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal {
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.principal p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: #FF0000;
+}
+
+.beneficios {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.beneficios-itens {
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.imagemBeneficios {
+    width: 50%;
+}
+
+.itens {
+    font-style: italic;
+    list-style: disc;/* para por as bolinhas de lista */
+}
+
+footer {
+    background: url(bg.jpg);/* aqui com url podemos por uma imagem de background;
+    lembrando que ela repete varias vezes a imagem para completar o espaço*/
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0; /* 20 em cima, 0 dos lados e 0 embaixo */
+}
